@@ -130,13 +130,13 @@ textarea {
     border: 1px solid gray;
     outline-color: #18D80f;
 }
-
+/* 
 .mascara-formulario {
     top: 0;
     position: fixed;
     width: 100vw;
     height: 100vh;
-}
+} */
 
 button {
     border: none;
@@ -169,7 +169,7 @@ button:active {
     -webkit-transform 2s; }*/
 
 
-/* 
+
 @media screen and (max-width: 1522px) {
 
     .class-p {
@@ -269,4 +269,4 @@ button:active {
         padding: 29px;
         flex-direction: row;
     }
-} */
+} 
