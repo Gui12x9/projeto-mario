@@ -7,6 +7,7 @@
 }
 
 body {
+ 
     height: 100vh;
 }
 
@@ -26,6 +27,7 @@ video {
 }
 
 .div-mae {
+    height: 100vh;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -41,7 +43,8 @@ video {
 }
 
 .div-principal {
-    width: 30vw;
+    width: 50%;
+    
 
 }
 
@@ -95,7 +98,6 @@ video {
     height: 200px;
 }
 
-
 .class-p-primeiro{
     font-size: 20px;
     width: 614px;
@@ -109,7 +111,7 @@ video {
     font-weight: 400;
     color: rgb(250, 250, 250);
 
-}
+} 
 
 .formulario-fale-conosco {
     background-color: #f2f2f2;
@@ -141,6 +143,7 @@ textarea {
 }
 
 .mascara-formulario {
+    visibility: hidden;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)  15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)  85%);
     top: 0; 
     position: fixed;
@@ -183,21 +186,21 @@ button:active {
 @media screen and (max-width: 1522px) {
 
     .class-p-primeiro{
-        font-size: 20px;
-        width: 337px;
+        font-size: 12px;
+        width: 231px;
         font-weight: 400;
         color: rgb(250, 250, 250);
     }
 
     .class-p-segundo{
-        font-size: 13px;
-        width: 346px;
+        font-size: 11px;
+        width: 274px;
         font-weight: 400;
         color: rgb(250, 250, 250);
     }
 
     .mascara-formulario {
-        display: none;
+        height: 45px;
     }
 
     .formulario-fale-conosco {
@@ -255,7 +258,7 @@ button:active {
     }
 
     .img-irmaos {
-        display: none;
+     height: 130px;
     }
 
 
@@ -279,9 +282,10 @@ button:active {
 
 
     .div-mae {
+        gap:10px;
         margin-top: 50px;
         display: flex;
-        justify-content: space-between;
+        justify-content: none;
         align-items: baseline;
         padding: 23px;
         flex-direction: row;
