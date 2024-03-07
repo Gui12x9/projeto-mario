@@ -126,6 +126,7 @@ video {
 }
 
 input {
+    color:black;
     height: 40px;
     border-radius: 5px;
     padding-left: 10px;
@@ -134,6 +135,7 @@ input {
 }
 
 textarea {
+    color: black;
     height: 100px;
     width: 270px;
     border-radius: 5px;
@@ -200,7 +202,7 @@ button:active {
     }
 
     .mascara-formulario {
-        height: 45px;
+        height: 100vh;
     }
 
     .formulario-fale-conosco {
