@@ -7,8 +7,10 @@
 }
 
 body {
- 
-    height: 100vh;
+height: calc(100vh - 0px);
+
+    /* width: calc(100% - 1px);
+    height: 100vh; */
 }
 
 video {
@@ -27,12 +29,12 @@ video {
 }
 
 .div-mae {
-    height: 100vh;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 200px;
+    height: 90vh;
+    padding: 50px;
 
 }
 
@@ -43,9 +45,7 @@ video {
 }
 
 .div-principal {
-    width: 50%;
-    
-
+    width: 40%;
 }
 
 .conteiner-1 {
@@ -85,7 +85,7 @@ video {
 }
 
 .img-irmaos {
-    height: 575px;
+    height: 500px;
 
 }
 
@@ -98,20 +98,10 @@ video {
     height: 200px;
 }
 
-.class-p-primeiro{
+p {
     font-size: 20px;
-    width: 614px;
-    font-weight: 400;
     color: rgb(250, 250, 250);
 }
-
-.class-p-segundo{
-    font-size: 20px;
-    width: 614px;
-    font-weight: 400;
-    color: rgb(250, 250, 250);
-
-} 
 
 .formulario-fale-conosco {
     background-color: #f2f2f2;
@@ -126,7 +116,7 @@ video {
 }
 
 input {
-    color:black;
+    color: black;
     height: 40px;
     border-radius: 5px;
     padding-left: 10px;
@@ -146,12 +136,12 @@ textarea {
 
 .mascara-formulario {
     visibility: hidden;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)  15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)  85%);
-    top: 0; 
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    top: 0;
     position: fixed;
     width: 100vw;
     height: 100vh;
-} 
+}
 
 button {
     border: none;
@@ -185,22 +175,51 @@ button:active {
 
 
 
-@media screen and (max-width: 1522px) {
+@media screen and (max-width: 1100px) {
 
-    .class-p-primeiro{
-        font-size: 12px;
-        width: 231px;
-        font-weight: 400;
-        color: rgb(250, 250, 250);
+    p {
+        display: none;
     }
 
-    .class-p-segundo{
-        font-size: 11px;
-        width: 274px;
-        font-weight: 400;
-        color: rgb(250, 250, 250);
+    .div-mae {
+        display: flex;
+        justify-content: normal;
+        padding: 10px;
+        flex-direction: column;
     }
 
+    .div-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-irmaos {
+        width: 80vw;
+        height: auto;
+    }
+
+.img-mario{
+display:none;
+
+}
+
+.conteiner-1{
+    margin-left:10px;
+align-items: center;
+justify-content: center;
+}
+
+.nav-1{
+    gap: 15px;
+    margin: 10px;
+}
+
+}
+
+
+
+/* 
     .mascara-formulario {
         height: 100vh;
     }
@@ -281,8 +300,7 @@ button:active {
         align-items: center;
         flex-direction: row;
     }
-
-
+    
     .div-mae {
         gap:10px;
         margin-top: 50px;
@@ -291,5 +309,5 @@ button:active {
         align-items: baseline;
         padding: 23px;
         flex-direction: row;
-    }
-} 
+    } 
+    */
